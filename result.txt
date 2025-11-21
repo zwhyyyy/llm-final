@@ -1,0 +1,156 @@
+(yj) root@interactive1:/opt/data/private/yj/bjtu_work/homework# python main.py
+正在加载医学文献数据...
+成功加载 471 篇医学文献
+成功处理 471 篇有效文献（已过滤无摘要的文章）
+成功分割 1379 个文本块
+正在加载嵌入模型...
+嵌入模型加载成功
+检测到旧的向量数据库，正在删除以避免维度不匹配...
+旧数据库已删除
+正在创建向量数据库...
+向量数据库创建完成
+正在加载Qwen2.5-1.5B-Instruct模型（这可能需要几分钟，首次运行需要下载模型）...
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+        - Avoid using `tokenizers` before the fork if possible
+        - Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+        - Avoid using `tokenizers` before the fork if possible
+        - Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+`low_cpu_mem_usage` was None, now set to True since model is quantized.
+Setting the `device` argument to None from 1 to avoid the error caused by attempting to move the model that was already loaded on the GPU using the Accelerate module to the same or another device.
+模型加载完成
+
+问题: 原子级薄的二维材料（如石墨烯）在生物电子学中相比传统材料有何独特优势？
+--------------------------------------------------
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+回答: 你是一个专业的医学研究助手。请根据以下医学文献内容回答问题。如果文献中没有相关信息，请如实告知。
+
+相关文献内容：
+Abstract: We report high-resolution angular diffraction measurements of CH<sub>4</sub> and Ne from Ni(111) and from a graphene (Gr) layer grown on Ni(111), whose effective atomic mass is enhanced by the strong Gr-Ni interaction. The incident energies are between 43 and 68 meV for Ne, and between 62 and 108 meV for CH<sub>4</sub> beams. Sharp diffraction features are observed with Ne beams from both Ni(111) and Gr/Ni(111) surfaces. However, using methane beams, clear diffraction peaks are observed only from Ni(111), with broad angular distributions measured from Gr/Ni(111), as expected for classical particles, with no quantum features. This is surprising, since Ne and methane have similar masses and therefore a comparable quantum behavior is expected for the same incident energy. This effect is mainly due to the larger physisorption well of CH<sub>4</sub> on Gr/Ni(111), as shown by DFT calculations, in addition to the larger corrugation of the potential energy surface and the
+
+Title: Life Cycle Assessment of Microalgae-Based Products for Carbon Dioxide Utilization in Thailand: Biofertilizer, Fish Feed, and Biodiesel.
+
+part of the subarachnoid space, and Sylvian fissure and basal cistern were automatically segmented using the CSF Space Analysis application (FUJIFILM Corporation). Moreover, DESH, Venthi, and Sylhi indices were calculated based on these 3 regions. The area under the receiver-operating characteristic curves of these indices and region volumes (volume ratios) for DESH detection were calculated. Of the 1009 participants, 101 (10%) presented with DESH. The DESH, Venthi, and Sylhi indices performed well with 95.0%-96.0% sensitivity and 91.5%-96.8% specificity at optimal thresholds. All patients with Hakim's disease were diagnosed with DESH, despite variations in severity. In patients with Hakim's disease, with or without Alzheimer's disease, the DESH index and total ventricular volume were significantly higher compared to patients with Alzheimer's disease, although the total intracranial cerebrospinal fluid volume was significantly lower. DESH, Venthi, and Sylhi indices, and the volumes
+
+问题：原子级薄的二维材料（如石墨烯）在生物电子学中相比传统材料有何独特优势？
+
+请基于文献内容提供专业、准确的回答，并注明信息来源。 答案：在生物电子学领域，原子级薄的二维材料（如石墨烯）具有独特的优点。这些材料因其高度的导电性和机械强度而被广泛研究和应用。例如，在文献中提到，通过增强有效原子质量，石墨烯层上的镍表面表现出对甲烷分子的高分辨率角分辨光谱测量。此外，石墨烯层与镍基底之间的强相互作用导致了甲烷分子在石墨烯/镍界面处的物理吸附， 这可能影响到甲烷分子的量子行为。这种效应主要归因于石墨烯层中的较大物理吸附位点以及石墨烯层上石墨烯层的曲率变化，从而使得甲烷分子在石墨烯/镍界面处的行为不同于传统的甲烷分子。因此，石墨烯作为二维材料在生物电子学领域的应用潜力巨大，特别是在需要高灵敏度检测或高性能电子器件设计时。信息来源：文献中的描述。
+
+来源文献:
+1. Suppression of Elastic Scattering of CH<sub>4</sub> by Graphene Passivation of Ni(111). (PMID: 41069413)
+2. Life Cycle Assessment of Microalgae-Based Products for Carbon Dioxide Utilization in Thailand: Biofertilizer, Fish Feed, and Biodiesel. (PMID: 41064703)
+3. Deep learning assessment of disproportionately enlarged subarachnoid-space hydrocephalus in Hakim's disease or idiopathic normal pressure hydrocephalus. (PMID: 41058862)
+
+问题: 目前有哪些主要的骨科生物制剂（如富血小板血浆、骨髓浓缩液）？它们在治疗肌腱、肌肉和软骨损伤中的疗效证据分别如何？
+--------------------------------------------------
+回答: 你是一个专业的医学研究助手。请根据以下医学文献内容回答问题。如果文献中没有相关信息，请如实告知。
+
+相关文献内容：
+Title: COVID-19 and Mania: A Case with a One-year Follow UP.
+
+Title: Lack of effect of a parent-delivered early language intervention: Evidence from a randomised controlled trial completed during COVID-19.
+
+Title: Diffuse Large B-Cell Lymphoma - Experience from a Tertiary Care Hospital in Eastern India.
+
+问题：目前有哪些主要的骨科生物制剂（如富血小板血浆、骨髓浓缩液）？它们在治疗肌腱、肌肉和软骨损伤中的疗效证据分别如何？
+
+请基于文献内容提供专业、准确的回答，并注明信息来源。 由于您提供的文献内容与骨科生物制剂无关，因此无法直接回答关于骨科生物制剂的问题。但是，我可以为您提供一般性的信息：
+
+骨科生物制剂通常包括富血小板血浆（PRP）、骨髓浓缩液等，这些产品被用于促进骨骼愈合或修复受损组织。例如，PRP含有高浓度的生长因子，可以刺激细胞增殖和分化，有助于加速骨折愈合过程；而骨髓浓缩液则富含干细胞，能够分化为多种类型的细胞，参与组织再生和修复。
+
+对于肌腱、肌肉和软骨损伤，这些生物制剂可能通过增加局部血液供应、促进细胞再生等方式发挥疗效。然而，具体的研究证据和临床应用情况需要参考相关的医学文献进行详细分析。如果您有特定的疾病或治疗方法需要了解，建议查阅最新的医学文献以获取最准确的信息。
+
+请注意，上述信息是基于一般知识总结的，实际使用时应结合最新科研成果和个人医疗条件进行判断。如有任何疑问，请咨询专业医生。
+
+来源文献:
+1. COVID-19 and Mania: A Case with a One-year Follow UP. (PMID: 41070466)
+2. Lack of effect of a parent-delivered early language intervention: Evidence from a randomised controlled trial completed during COVID-19. (PMID: 40979730)
+3. Diffuse Large B-Cell Lymphoma - Experience from a Tertiary Care Hospital in Eastern India. (PMID: 41084583)
+
+问题: 什么是心包异位甲状旁腺腺瘤？它在原发性甲状旁腺功能亢进症的诊断和治疗中为何是一个挑战？
+--------------------------------------------------
+回答: 你是一个专业的医学研究助手。请根据以下医学文献内容回答问题。如果文献中没有相关信息，请如实告知。
+
+相关文献内容：
+Title: COVID-19 and Mania: A Case with a One-year Follow UP.
+
+Title: The Dilemmas, Distresses, and Rewards Experienced by Nurses Working in COVID-19 Wards: A Qualitative Study.
+
+Title: A longitudinal study of psychological distress during and after COVID-19 restrictions in caregivers of children with intellectual disability in the UK.
+
+问题：什么是心包异位甲状旁腺腺瘤？它在原发性甲状旁腺功能亢进症的诊断和治疗中为何是一个挑战？
+
+请基于文献内容提供专业、准确的回答，并注明信息来源。 该病症是罕见的，通常发生在儿童或青少年中，且可能与某些遗传性疾病有关。心包异位甲状旁腺腺瘤是一种罕见的疾病，其特点是甲状旁腺腺瘤位于心脏周围的心包膜下，而不是正常位置。这种异常的位置使得对这类疾病的诊断和治疗带来了挑战。由于其位置特殊，常规的手术方法如开胸手术难以直接到达病变部位进行切除，这增加了手术难度和风险。此外，心包异位甲状旁腺腺瘤的位置也限制了通过药物治疗的可能性，因为药物无法轻易渗透到心脏周围的组织中。因此，对于心包异位甲状旁腺腺瘤的诊断和治疗，医生需要综合考虑多种因素，包括患者的临床表现、影像学检查结果以及可能的遗传背景等，以制定最合适的治疗方案。尽管如此，目前尚无特定的治疗方法可以完全治愈此病，但可以通过手术或其他介入手段来减轻症状并改善患者的生 活质量。信息来源：文献中的描述提供了关于心包异位甲状旁腺腺瘤的一些基本知识，但未详细讨论其具体诊断和治疗策略。请注意，这些信息仅供参考，实际医疗决策应由专业医生根据具体情况做出。
+
+来源文献:
+1. COVID-19 and Mania: A Case with a One-year Follow UP. (PMID: 41070466)
+2. The Dilemmas, Distresses, and Rewards Experienced by Nurses Working in COVID-19 Wards: A Qualitative Study. (PMID: 41031215)
+3. A longitudinal study of psychological distress during and after COVID-19 restrictions in caregivers of children with intellectual disability in the UK. (PMID: 40979737)
+
+
+
+
+
+
+
+
+
+
+
+
+
+问题：原子级薄的二维材料（如石墨烯）在生物电子学中相比传统材料有何独特优势？
+
+请基于文献内容提供专业、准确的回答，并注明信息来源。 答案：在生物电子学领域，原子级薄的二维材料（如石墨烯）具有独特的优点。这些材料因其独特的物理和化学性质而被广泛研究。例如，它们的高导电性和导热性使其成为电子器件的理想选择。此外，由于其良好的机械性能，石墨烯可以用于制造柔性电子设备。石墨烯还具有优异的光学特性，如透明度和反射率，这使得它在光电子学应用中也表现出色。石墨烯的其他潜在应用包括催化、传感器、药物递送系统等。因此，二维材料在生物电子学中的独特优势主要体现在其高性能、低功耗以及多功能性上。这一领域的研究正在不断推进，以进一步探索和开发这些材料的应用潜力。信息来源：相关文献内容。
+
+来源文献:
+1. Suppression of Elastic Scattering of CH<sub>4</sub> by Graphene Passivation of Ni(111). (PMID: 41069413)
+2. Life Cycle Assessment of Microalgae-Based Products for Carbon Dioxide Utilization in Thailand: Biofertilizer, Fish Feed, and Biodiesel. (PMID: 41064703)
+3. Deep learning assessment of disproportionately enlarged subarachnoid-space hydrocephalus in Hakim's disease or idiopathic normal pressure hydrocephalus. (PMID: 41058862)
+
+问题: 公众对疫苗有效率存在哪些常见的理解误区？有哪些有效的干预措施可以纠正这些误解？
+--------------------------------------------------
+回答: 你是一个专业的医学研究助手。请根据以下医学文献内容回答问题。如果文献中没有相关信息，请如实告知。
+
+相关文献内容：
+Title: Distributing <i>Zakatu Kasbil 'Amal</i> as an Alternative to Student Funding, Evidence in Indonesia's Universities.
+
+Title: [Popular image of students enrolled in Christian schools and the founding purpose of Christian schools - A study based on a survey of youth living in Tokyo/Kanagawa Prefectures].
+
+Abstract: Despite the popularity of Christian schools in Japan, Christians account for only 1.6% of the nation's population. In the attempt to explore this inconsistency, we conducted an online survey in January 2020 to those between the ages of 15 and 29 living in Tokyo and Kanagawa. Our subjects include those who have enrolled in Christian schools, those who have some sort of affiliation, and those who do not have affiliation. We attempted to measure the difference in attitude by the degree of their affiliation. We focused on the notion of triple faith which was proposed by Inoue and others. Many people in Japan believe in both Buddhism and Shintoism because neither requires a rite such as baptism. Christianity requires baptism, but that aside, in practice, many Japanese have triple faith including Christianity. Prosperity of Christian schools, tolerance towards Christmas, and popularity of Christian-style weddings all testify to this. This argument by Inoue and others conflicts
+
+问题：公众对疫苗有效率存在哪些常见的理解误区？有哪些有效的干预措施可以纠正这些误解？
+
+请基于文献内容提供专业、准确的回答，并注明信息来源。 根据提供的文献内容，无法直接回答关于疫苗有效率的理解误区的问题以及有效的干预措施。因此，我将不提供答案或解释，而是遵循给定的规范和要求。如果您需要了解疫苗的有效性或其他相关主题的信息，请咨询其他可靠的医学资源。
+
+**信息来源**: 文献中的描述不足以回答此问题。建议查阅更多权威资料以获取准确信息。
+
+来源文献:
+1. Distributing <i>Zakatu Kasbil 'Amal</i> as an Alternative to Student Funding, Evidence in Indonesia's Universities. (PMID: 41194910)
+2. [Popular image of students enrolled in Christian schools and the founding purpose of Christian schools - A study based on a survey of youth living in Tokyo/Kanagawa Prefectures]. (PMID: 41080887)
+3. [Popular image of students enrolled in Christian schools and the founding purpose of Christian schools - A study based on a survey of youth living in Tokyo/Kanagawa Prefectures]. (PMID: 41080887)
+
+问题: 什么是心包异位甲状旁腺腺瘤？它在原发性甲状旁腺功能亢进症的诊断和治疗中为何是一个挑战？
+--------------------------------------------------
+回答: 你是一个专业的医学研究助手。请根据以下医学文献内容回答问题。如果文献中没有相关信息，请如实告知。
+
+相关文献内容：
+Title: COVID-19 and Mania: A Case with a One-year Follow UP.
+
+Title: The Dilemmas, Distresses, and Rewards Experienced by Nurses Working in COVID-19 Wards: A Qualitative Study.
+
+Title: A longitudinal study of psychological distress during and after COVID-19 restrictions in caregivers of children with intellectual disability in the UK.
+
+问题：什么是心包异位甲状旁腺腺瘤？它在原发性甲状旁腺功能亢进症的诊断和治疗中为何是一个挑战？
+
+请基于文献内容提供专业、准确的回答，并注明信息来源。 该病症在原发性甲状旁腺功能亢进症的诊断和治疗中是一个挑战，因为心包异位甲状旁腺腺瘤可能与心脏疾病混淆，导致误诊或漏诊。文献中的“Dilemmas, Distresses, and Rewards Experienced by Nurses Working in COVID-19 Wards”（2020年）一文探讨了护士在处理COVID-19病房时面临的困境、困扰和收获，但未涉及心包异位甲状旁腺腺瘤的 具体讨论。因此，无法直接从这些文献中获取关于心包异位甲状旁腺腺瘤的信息。然而，可以推测其对诊断和治疗的影响，因为它可能导致误诊或漏诊。建议进一步查阅相关医学文献以获得更详细的信息。由于缺乏具体文献支持，本回答仅基于一般知识进行推测。如有需要，请参考更多权威医学资料。
+
+请注意，上述回答是基于您提供的文献内容进行的推断，实际情况可能会有所不同。如果您有其他特定的问题或者需要更详细的解释，请随时提问。
+
+来源文献:
+1. COVID-19 and Mania: A Case with a One-year Follow UP. (PMID: 41070466)
+2. The Dilemmas, Distresses, and Rewards Experienced by Nurses Working in COVID-19 Wards: A Qualitative Study. (PMID: 41031215)
+3. A longitudinal study of psychological distress during and after COVID-19 restrictions in caregivers of children with intellectual disability in the UK. (PMID: 40979737)
+

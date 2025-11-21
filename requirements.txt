@@ -1,0 +1,32 @@
+# 核心LangChain框架
+langchain>=0.1.0
+langchain-community>=0.0.1
+langchain-core>=0.1.0
+langchain-text-splitters>=0.0.1
+
+# 向量数据库和存储
+chromadb>=0.4.0
+
+# Hugging Face相关
+transformers>=4.30.0
+accelerate>=0.20.0
+sentence-transformers>=2.2.0
+bitsandbytes>=0.41.0
+peft>=0.4.0
+
+# 深度学习框架
+torch>=2.0.0
+
+# 数据处理和工具
+numpy>=1.21.0
+tqdm>=4.64.0
+
+# 文件处理
+PyYAML>=6.0
+requests>=2.25.0
+
+# 可选：用于JSON处理的工具（如果JSON文件很大）
+ijson>=3.1.0
+
+# 可选：进度显示
+rich>=13.0.0
